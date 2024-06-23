@@ -1,0 +1,54 @@
+.nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(136, 65, 250);
+    padding: 14px 5%;
+    color: white;
+    border-bottom: 1px solid rgb(140, 137, 137);
+}
+.logo{
+    font-size: 22px;
+    font-weight: 600;
+}
+input{
+width: 30vw;
+border: none;
+border-radius: 12px;
+outline: none;
+padding: 5px ;
+padding-left: 20px;
+}
+::placeholder{
+    color: rgb(132, 133, 134);
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+.nav-bar-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 5%;
+    color: rgb(226, 233, 241);
+    background: rgb(136, 65, 250);
+    font-size: 16px;
+    font-weight: 500;
+}
+.nav-bar-2 .item:hover{
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+   color: white;
+}
+.item{
+    cursor: pointer;
+}
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+   
+}

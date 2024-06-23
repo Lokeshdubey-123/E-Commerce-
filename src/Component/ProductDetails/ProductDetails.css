@@ -1,0 +1,27 @@
+.container{
+    /* margin-top: 2% ; */
+display: flex;
+align-items: center;
+justify-content:space-between;
+
+}
+.img{
+    margin-left: 15%;
+    width: 30vw;
+    margin-right:5% ;
+}
+.img img{
+    width:  320px;
+}
+.Details{
+   
+    flex-wrap: wrap;
+    width: 26vw;
+    margin-right: 15%;
+}
+.relative{
+   
+    width: 100%;
+    padding-left: 20%;
+   
+}
